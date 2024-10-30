@@ -1,0 +1,34 @@
+.select-language-container {
+    display: inline-block !important;
+    flex-direction: column;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.option {
+    display: none;
+    border: none;
+}
+
+.list-languages li {
+    display: flex;
+    align-items: center;
+}
+.list-languages li:hover {
+    background: #333;
+    cursor: pointer;
+}
+
+.list-languages li img {
+    margin-right: 5px;
+}
+
+.list-languages li p {
+    font-size: 14px;
+}

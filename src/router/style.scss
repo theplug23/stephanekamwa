@@ -1,0 +1,38 @@
+.dsn-animate-in {
+  animation: 0.3s fadeIn forwards;
+}
+
+.dsn-animate-out {
+  animation: 0.5s fadeOut forwards;
+}
+.top{
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  background-color: #b99226;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

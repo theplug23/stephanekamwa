@@ -1,0 +1,74 @@
+.footer {
+  position: relative;
+  padding-left: 10px;
+}
+.footer .dsn-col-footer .footer-title {
+  position: relative;
+  color: var(--heading-color);
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 14px;
+  margin-bottom: 25px;
+  letter-spacing: 0px;
+}
+.footer .dsn-col-footer .footer-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 15px;
+  height: 2px;
+  background-color: var(--heading-color);
+}
+.footer .dsn-col-footer ul.col-menu li {
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+}
+.footer .dsn-col-footer ul.col-menu li:not(:last-child) {
+  margin-bottom: 5px;
+}
+.footer .dsn-col-footer ul.col-menu li a {
+  font-weight: 700;
+}
+.footer .dsn-col-footer .col-contact p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer .dsn-col-footer .col-contact p strong {
+  color: var(--heading-color);
+}
+.footer .dsn-col-footer .col-contact p span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.footer a,
+.footer p {
+  color: var(--font-color);
+  margin-bottom: 0;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-variant-numeric: proportional-nums;
+  font-family: var(--heading-font);
+}
+.footer .copyright {
+  font-size: 14px;
+  letter-spacing: 2.67px;
+  border-top: 1px solid var(--border-color);
+}
+.footer .copyright p {
+  text-transform: uppercase;
+}
+.footer .copyright .copyright-text {
+  color: var(--font-color);
+  margin-top: 5px;
+  font-weight: 500;
+}
+.footer .copyright .copyright-text a {
+  margin-left: 5px;
+  color: #a56433;
+}/*# sourceMappingURL=style.css.map */

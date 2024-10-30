@@ -1,0 +1,69 @@
+.box-info-contact {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.229);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .box-info-contact {
+    padding: 0;
+    margin-bottom: 50px;
+    background-color: var(--bg-color);
+  }
+}
+.box-info-contact ul li:not(:first-child) {
+  margin-top: 20px;
+}
+.box-info-contact ul li span {
+  color: var(--heading-color);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  min-width: 120px;
+}
+@media only screen and (max-width: 400px) {
+  .box-info-contact ul li span {
+    min-width: auto;
+    margin-right: 15px;
+  }
+}
+.box-info-contact ul li a {
+  position: relative;
+  transition: color 0.3s ease-out;
+  line-height: 1.7;
+}
+.box-info-contact ul li a:after, .box-info-contact ul li a:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--border-color);
+  transition: transform 0.4s cubic-bezier(0.28, 0.38, 0, 0.81);
+}
+.box-info-contact ul li a::before {
+  transform-origin: 100% 50%;
+}
+.box-info-contact ul li a:after {
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-delay: 0.2s;
+}
+.box-info-contact ul li a:hover::before {
+  transform: scaleX(0);
+}
+.box-info-contact ul li a:hover:after {
+  transform: scaleX(1);
+}
+
+@media only screen and (min-width: 992px) {
+  .box-info-contact.p-30 + .form-box {
+    padding: 30px;
+  }
+}
+
+#btn-contact {
+  background-color: rgba(17, 17, 17, 0.479) !important;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,96 @@
+.social-one:not(.social-network) li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 6px;
+}
+.social-one:not(.social-network) li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--heading-color);
+  border-radius: 50%;
+  letter-spacing: 0;
+  border: 1px solid var(--border-color);
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+.social-one:not(.social-network) li a svg {
+  position: relative;
+  z-index: 2;
+  fill: var(--heading-color);
+  width: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.social-one:not(.social-network) li a:hover svg {
+  color: var(--heading-color);
+  transform: rotate(360deg);
+}
+
+.main-social {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 30px;
+  left: 50px;
+  z-index: 2;
+}
+.main-social .social-icon {
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.6s;
+}
+.main-social .social-icon svg {
+  fill: var(--heading-color);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.main-social .social-icon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: var(--heading-color);
+  opacity: 0.2;
+  top: 8px;
+  left: 35px;
+  transition: width 0.5s 0.3s;
+}
+.main-social .social-network {
+  margin-left: 75px;
+  overflow: hidden;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+}
+.main-social .social-network li {
+  opacity: 0;
+  visibility: hidden;
+  transform-origin: top left;
+  font-size: 16px;
+  margin-right: 30px;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translateY(5px) rotate(10deg);
+}
+.main-social .social-network li a {
+  width: 100%;
+}
+.main-social .social-network li svg {
+  fill: var(--heading-color);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.main-social:hover .social-icon:after {
+  width: 40px;
+  transition-delay: 0s;
+}
+.main-social:hover .social-network li {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition-delay: calc(30ms * var(--item-index) + 0.25s);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+.dsn-btn-popup {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dsn-btn-popup svg {
+  height: 25px;
+}
+.dsn-btn-popup svg, .dsn-btn-popup svg path {
+  fill: var(--heading-color);
+}/*# sourceMappingURL=style.css.map */

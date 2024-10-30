@@ -1,0 +1,39 @@
+.btn-project {
+  position: relative;
+  color: var(--heading-color);
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  padding: 8px 0;
+}
+.btn-project::after, .btn-project::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  background-color: var(--border-color);
+}
+.btn-project::before {
+  top: 0;
+  transition: top 0.4s cubic-bezier(0.14, 0.7, 0.3, 1) 0s;
+}
+.btn-project::after {
+  bottom: 0;
+  transition: bottom 0.4s cubic-bezier(0.14, 0.7, 0.3, 1) 0s;
+}
+.btn-project .text {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.btn-project:hover {
+  color: var(--heading-color);
+}
+.btn-project:hover::before {
+  top: 10%;
+}
+.btn-project:hover::after {
+  bottom: 10%;
+}/*# sourceMappingURL=style.css.map */

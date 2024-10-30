@@ -1,0 +1,74 @@
+.next-page {
+  position: relative;
+  background-color: var(--assistant-color);
+  overflow: hidden;
+}
+.next-page:before {
+  content: "";
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: var(--bg-color);
+  transition: width 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.next-page .c-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.next-page .c-wrap a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .next-page .c-wrap a {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .next-page .c-wrap a {
+    flex-direction: column;
+  }
+  .next-page .c-wrap a .career {
+    margin-top: 10px;
+  }
+}
+.next-page .c-wrap a .hiring, .next-page .c-wrap a .career {
+  position: relative;
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .next-page .c-wrap a .hiring, .next-page .c-wrap a .career {
+    width: 50%;
+  }
+  .next-page .c-wrap a .hiring.career, .next-page .c-wrap a .career.career {
+    text-align: right;
+  }
+}
+.next-page .c-wrap a .hiring {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--heading-color);
+  text-transform: uppercase;
+  transition: color 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.next-page .c-wrap a .career {
+  color: var(--heading-color);
+  font-size: 14px;
+}
+.next-page:hover:before {
+  width: 100%;
+}
+.next-page:hover a .hiring {
+  color: var(--heading-color);
+}/*# sourceMappingURL=style.css.map */

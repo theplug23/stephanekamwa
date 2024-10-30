@@ -1,0 +1,19 @@
+@media only screen and (min-width: 992px) {
+  .cursor {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+    background-color: #fff;
+    border-radius: 50%;
+    transform-origin: left top;
+    z-index: 999999;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: exclusion;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cursor {
+    display: none;
+  }
+}/*# sourceMappingURL=customCursorStyle.css.map */

@@ -1,0 +1,52 @@
+.team-item {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.team-item .box-img {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.team-item .box-img img {
+  transform: scale(1.095);
+  transition: 1s cubic-bezier(0.645, 0, 0.355, 1);
+}
+.team-item .box-content {
+  position: relative;
+  z-index: 1;
+}
+.team-item .box-content h5 {
+  letter-spacing: -1px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  word-spacing: 8px;
+  transition: 1s cubic-bezier(0.645, 0, 0.355, 1);
+}
+.team-item .box-content h6 {
+  color: var(--font-color);
+  letter-spacing: 1.5px;
+  font-family: var(--body-font);
+  font-size: 14px;
+  transition: 1.2s cubic-bezier(0.645, 0, 0.355, 1);
+}
+.team-item .box-content a {
+  font-family: var(--body-font);
+  font-size: 14px;
+  transition: 1.2s cubic-bezier(0.645, 0, 0.355, 1);
+  text-transform: uppercase;
+}
+.team-item:hover .box-img img {
+  transform: scale(1);
+  filter: blur(3px);
+}
+.team-item:hover .box-content h5 {
+  transform: translateX(20px);
+}
+.team-item:hover .box-content h6 {
+  transform: translateX(20px);
+}
+.team-item:hover .box-content a {
+  transform: translateX(20px);
+}/*# sourceMappingURL=style.css.map */

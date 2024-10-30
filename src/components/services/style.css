@@ -1,0 +1,57 @@
+.dsn-services .service-item {
+  position: relative;
+}
+@media only screen and (min-width: 992px) {
+  .dsn-services.service-one .service-item {
+    padding: 50px 45px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .dsn-services.service-one .service-item {
+    padding: 30px 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .dsn-services.service-one .service-item:nth-of-type(even) {
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .dsn-services.service-one .service-item {
+    background: var(--assistant-color);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+.dsn-services.service-one .service-item:before, .dsn-services.service-one .service-item:after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.dsn-services.service-one .service-item::before {
+  top: 0;
+  left: 0;
+  border-top: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+}
+.dsn-services.service-one .service-item:after {
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+.dsn-services.service-one .service-item .icon svg, .dsn-services.service-one .service-item .icon img {
+  height: 75px;
+}
+.dsn-services.service-one .service-item p {
+  max-width: 500px;
+}
+.dsn-services.service-tow p {
+  max-width: 450px;
+}
+.dsn-services.service-tow .line-before {
+  width: 40px;
+  height: 2px;
+  background-color: var(--heading-color);
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */

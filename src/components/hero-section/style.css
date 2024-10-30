@@ -1,0 +1,67 @@
+@media only screen and (min-width: 992px) {
+  .hero-section .title-section {
+    text-align: right;
+    margin-right: -70px;
+    margin-bottom: 40px;
+  }
+  .hero-section p {
+    max-width: 370px;
+  }
+  .hero-section .box-img {
+    height: 100%;
+  }
+  .hero-section .col-lg-8 {
+    padding-right: 0;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-section {
+    --number-size: 80px;
+  }
+}
+.hero-section .box-text {
+  position: relative;
+  z-index: 1;
+}
+.hero-section .box-text .sm-title-block {
+  position: relative;
+  text-transform: uppercase;
+  width: -moz-max-content;
+  width: max-content;
+  padding-right: 80px;
+}
+.hero-section .box-text .sm-title-block:before, .hero-section .box-text .sm-title-block:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero-section .box-text .sm-title-block::before {
+  right: 0;
+  width: 5px;
+  height: 5px;
+  background-color: var(--heading-color);
+  border-radius: 50%;
+}
+.hero-section .box-text .sm-title-block::after {
+  display: block;
+  right: 15px;
+  height: 1px;
+  width: 52px;
+  background: rgba(233, 233, 233, 0.1);
+}
+.hero-section .box-text .auth-position {
+  font-size: 14px;
+}
+.hero-section .box-text .experience {
+  display: flex;
+  align-items: center;
+}
+.hero-section .box-text .experience .number {
+  color: var(--heading-color);
+  font-size: var(--number-size, 120px);
+  line-height: 90px;
+  font-weight: bold;
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */

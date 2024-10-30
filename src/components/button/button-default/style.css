@@ -1,0 +1,33 @@
+.btn-default {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 25px;
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  color: var(--heading-color);
+}
+.btn-default .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--heading-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.btn-default .icon svg {
+  width: 6px;
+}
+.btn-default .icon svg path {
+  fill: var(--bg-color);
+}
+.btn-default .text {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.btn-default:hover {
+  color: var(--heading-color);
+}/*# sourceMappingURL=style.css.map */

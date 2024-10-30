@@ -1,0 +1,24 @@
+.privacy-policy {
+    font-weight: "bold"; 
+    font-family: "Montserrat"
+}
+
+.item-privacy {
+    margin: 20px 0;
+}
+.item-privacy h4 {
+    margin-bottom: 20px;
+}
+.item-privacy h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.item-privacy p {
+    margin-bottom: 10px;
+}
+.item-privacy p > a {
+    color: white;
+}
+.item-privacy p > a:hover {
+    text-decoration: underline;
+}

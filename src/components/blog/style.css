@@ -1,0 +1,12 @@
+.blog-item .box-img {
+  position: relative;
+  overflow: hidden;
+}
+.blog-item .box-content {
+  position: relative;
+  bottom: 50px;
+  margin-left: 50px;
+  margin-bottom: -50px;
+  padding: 40px;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */

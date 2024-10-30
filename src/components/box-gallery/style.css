@@ -1,0 +1,71 @@
+.dsn-box-gallery .item-box {
+  position: relative;
+}
+@media only screen and (min-width: 992px) {
+  .dsn-box-gallery .item-box {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .dsn-box-gallery .item-box {
+    padding: 40px 40px 40px 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .dsn-box-gallery .item-box {
+    padding: 80px;
+  }
+}
+.dsn-box-gallery .item-box:nth-child(odd) {
+  background-color: var(--assistant-color);
+}
+.dsn-box-gallery .item-box .image-zoom {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.dsn-box-gallery .item-box .image-zoom img {
+  height: auto;
+  max-height: 80vh;
+  pointer-events: auto;
+}
+.dsn-box-gallery .item-box .caption {
+  position: absolute;
+  left: -20px;
+  bottom: 0;
+  transform: rotate(-90deg);
+  transform-origin: left center;
+  color: var(--font-color);
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.box-im {
+  position: relative;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media only screen and (max-width: 991px) {
+  .box-im {
+    padding: 40px 40px 40px 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .box-im {
+    padding: 80px;
+  }
+  .box-im .caption {
+    left: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .box-im .caption {
+    left: -20px;
+  }
+}
+.box-im .image-zoom {
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
