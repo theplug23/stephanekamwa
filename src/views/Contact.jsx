@@ -24,10 +24,10 @@ function Contact(props) {
   return (
     <React.Fragment>
       <Helmet>
-        <title>CONTACT - THEPLUG COM'</title>
+        <title>CONTACT - STEPHANE KAMWA</title>
       </Helmet>
 
-      <HeaderNormal className="background-section text-uppercase" description={t("Démarrez un projet avec nous")}>
+      <HeaderNormal className="background-section text-uppercase" description={t("Démarrez un projet avec moi")}>
           {t("Contacts")}<br/> 
       </HeaderNormal>
       <HeroSectionContact className="section-margin text-center" />

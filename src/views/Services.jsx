@@ -16,8 +16,8 @@ import { useTranslation } from 'react-i18next';
 import ReactGA from 'react-ga4';
 
 const headerContent = {
-    title: 'Nos Services',
-    description: `Ce que nous proposons`
+    title: 'Mes Services',
+    description: `Ce que je propose`
 }
 
 function Services(props) {
@@ -36,7 +36,7 @@ function Services(props) {
     return (
         <React.Fragment>
           <Helmet>
-            <title>SERVICES - THEPLUG COM'</title>
+            <title>SERVICES - STEPHANE KAMWA</title>
           </Helmet>
     
           {/*Start Header*/}
@@ -44,25 +44,25 @@ function Services(props) {
             {headerContent.title}
           </HeaderNormalTow>
      */}
-      <HeaderNormal className="background-section text-uppercase" description={t("Ce que nous proposons")}>
-          {t("Nos Services")}<br/> 
+      <HeaderNormal className="background-section text-uppercase" description={t("Ce que je propose")}>
+          {t("Mes Services")}<br/> 
       </HeaderNormal>
           {/*Start Box Right Info*/}
           {/* <HeroSectionService className="section-margin text-center"/> */}
     
           {/*Start Service Section*/}
           <Container className="section-margin">
-            <TitleSection description={t("Nos Services")}>
-              {t("Expert dans tous les services de la communication")}
+            <TitleSection description={t("Mes Services")}>
+              {t("Ce que je fais le mieux")}
             </TitleSection>
             <ServiceOne col={3} colMobile={1} />
           </Container>
           <NextPage
             className="section-margin"
             to="/contact"
-            text={t("Ecrivez-nous directement en cliquant ici !")}
+            text={t("Ecrivez-moi directement en cliquant ici !")}
           >
-           {t("Contactez-nous")}
+           {t("Contactez-moi")}
           </NextPage>
           <Footer />
         </React.Fragment>

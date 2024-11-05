@@ -14,7 +14,7 @@ const TestimonialDetails = [
         name: "Marc Schröter",
         label: "Particulier",
         src: "assets/img/team/nico.jpg",
-        description: `"THEPLUG COM' a accompagné la fête d'été de notre entreprise et nous sommes complètement enthousiasmés par son travail professionnel et ses images qui racontent des histoires. Nous pouvons expressément recommander Stéphane et retravaillerons avec lui à tout moment. Il était en arrière-plan tout le temps et a capturé de manière authentique chaque instant et chaque émotion. Stéphane est aussi une personne très sympathique. Nous nous sommes beaucoup amusés avec lui et nous étions heureux de l'avoir avec nous lors de notre journée. Recommandation absolue!"`
+        description: `"Stephane a accompagné la fête d'été de notre entreprise et nous sommes complètement enthousiasmés par son travail professionnel et ses images qui racontent des histoires. Nous pouvons expressément recommander Stéphane et retravaillerons avec lui à tout moment. Il était en arrière-plan tout le temps et a capturé de manière authentique chaque instant et chaque émotion. Stéphane est aussi une personne très sympathique. Nous nous sommes beaucoup amusés avec lui et nous étions heureux de l'avoir avec nous lors de notre journée. Recommandation absolue!"`
     },
     {
         name: "Jessica",
@@ -32,8 +32,8 @@ const TestimonialDetails = [
         name: "Marlene bone",
         label: "particuliere",
         src: "assets/img/avatar/3.jpg",
-        description: `"Ouah!! THEPLUG COM' n'est pas seulement un studio incroyablement bon et professionnel, mais aussi un cabinet de communication  ! C'était très amusant de tourner avec lui et il a réussi à capturer notre mariage avec de nombreux clichés exactement comme nous le voulions ! Nous le réserverions encore et encore!
-        Merci THEPLUG 😊"`
+        description: `"Ouah!! Stephane est incroyablement bon et professionnel ! C'était très amusant de tourner avec lui et il a réussi à capturer notre mariage avec de nombreux clichés exactement comme nous le voulions ! Nous le réserverions encore et encore!
+        Merci Stephane 😊"`
     },
 
 ]

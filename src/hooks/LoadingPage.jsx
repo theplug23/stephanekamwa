@@ -56,7 +56,7 @@ function LoadingPage(props) {
             <div className="preloader-after"/>
             <div className="preloader-before"/>
             <div className="preloader-block">
-                <div className="title">ThePlug Com</div>
+                <div className="title">Stephane Kamwa</div>
                 <div className="percent">{percent}</div>
                 <div className="loading">{t("Chargement...")}</div>
             </div>

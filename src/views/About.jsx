@@ -19,7 +19,7 @@ import ReactGA from 'react-ga4';
 
 const headerContent = {
   title: "L'art de la communication",
-  description: `Tout savoir sur nous.`,
+  description: `Tout savoir sur moi.`,
 };
 
 function About() {
@@ -37,7 +37,7 @@ function About() {
   return (
     <React.Fragment>
       <Helmet>
-        <title>ABOUT - THEPLUG COM'</title>
+        <title>ABOUT - STEPHANE KAMWA</title>
       </Helmet>
 
       {/*Start Header*/}
@@ -49,60 +49,60 @@ function About() {
       {/*Start Box Right Info*/}
       <BoxRight
         className="mb-section text-center"
-        src="/assets/img/direction.jpg"
+        src="/assets/img/equipment.jpg"
         parallaxFrom={{ scale: 1.2 }}
         parallax={{ scale: 1 }}
         overlay={4}
       >
         <FadeUpTrigger>
-          <h3 style={{ color: "#b99226" }}>{t("Qui sommes-nous?")}</h3>
+          <h3 style={{ color: "#b99226" }}>{t("Qui suis-je?")}</h3>
           <br />
-          {t("THEPLUG COM' c'est :")} <br />
+          {t("Stephane Kamwa c'est :")} <br />
           <p
             className="mt-20 m-w750 dsn-auto"
             style={{ color: "white",textAlign:"inherit" }}
           >
-            <span style={{ color: "#b99226" }}>-</span>{t("Une société donc l’ADN est la passion pour la communication, l’audiovisuel, l’image… l’art.")}{" "}
+            <span style={{ color: "#b99226" }}>-</span>{t("Un freelance avec une passion profonde pour la communication, les médias audiovisuels, l'imagerie, le développement web et mobile... et l'art qui réunit ces domaines.")}{" "}
             <br />
             <br />
-            <span style={{ color: "#b99226" }}>-</span>{t("Un cabinet qui accompagne les marques et entreprises dans l’atteinte de leurs objectifs sur le plan communicationnel au moyen de l’étude et du conseil.")} <br />
+            <span style={{ color: "#b99226" }}>-</span>{t("Un partenaire de confiance qui aide les marques et les entreprises à atteindre leurs objectifs de communication par le biais d'études stratégiques, de conseils et de solutions numériques.")} <br />
             <br />
-            <span style={{ color: "#b99226" }}>-</span> {t("L’Opérationnel et la technicité font partie de son savoir faire en tant que structure de production audio-visuelle.")} <br />
+            <span style={{ color: "#b99226" }}>-</span> {t("Une entité de production polyvalente qui maîtrise les aspects opérationnels et techniques de la production audiovisuelle, ainsi que le développement web et mobile.")} <br />
             <br />
-            <span style={{ color: "#b99226" }}>-</span> {t("Elle regroupe en son sein des directeurs en production audio-visuelle, des chargés d’études, des graphistes, des vidéastes et développeurs web qui collaborent avec professionnalisme dans le but de fournir un service excellent et de qualité.")} <br />
+            <span style={{ color: "#b99226" }}>-</span> {t("Soutenue par un réseau professionnel de directeurs de production audiovisuelle, de chercheurs, de graphistes, de vidéastes et de développeurs web, qui collaborent tous pour fournir un service de premier ordre.")} <br />
             <br />
-            <span style={{ color: "#b99226" }}>-</span> {t("Elle dispose d’un ensemble de matériels à la pointe pour une production audio-visuelle, graphique de qualité, et des méthodes efficaces pour optimiser la communication d’un service, d’une entreprise, d’une marque, ou d’une personne.")}
+            <span style={{ color: "#b99226" }}>-</span> {t("Équipés d'une technologie de pointe pour une production audiovisuelle, graphique et numérique de qualité supérieure, ainsi que de stratégies efficaces pour améliorer la communication de tout département, entreprise, marque ou individu.")}
           </p>
         </FadeUpTrigger>
-      </BoxRight>
+      </BoxRight><br/>
       {/*End Box Right Info*/}
 
       {/*Start Service Section*/}
       <Container className="section-margin">
-        <TitleSection description={t("Notre ADN")}>
-          {t("Expert dans l'analyse et la conception")}
+        <TitleSection description={t("Mon ADN")}>
+          {t("Expert dans la conception")}
         </TitleSection>
         <ServiceTow col={3} colMobile={1} />
       </Container>
       
       {/*Start Service Section*/}
       <Container className="section-margin">
-          <TitleSection description={t("Nos Services")}>
-              {t("Cabinet d'études et conseil")}
+          <TitleSection description={t("Mes Services")}>
+              {t("Ce que je fais le mieux")}
           </TitleSection>
           <ServiceOne className="text-center" col={3} colMobile={1} colGap={0} colGapTablet={30} />
       </Container>
       {/*End Service Section*/}
 
       {/*Start Team*/}
-      <section className="section-margin background-section section-padding">
+      {/* <section className="section-margin background-section section-padding">
         <Container className="dsn-right-container">
           <TitleSection description={t("Notre Equipe")}>
             {t("La meilleure equipe qui soit")}
           </TitleSection>
           <Team loop grabCursor />
         </Container>
-      </section>
+      </section> */}
       {/*End Team*/}
 
       {/*Start Service Section*/}

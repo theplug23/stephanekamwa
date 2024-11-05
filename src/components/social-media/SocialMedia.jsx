@@ -9,11 +9,11 @@ import {splittingItems} from "../../hooks/Spltting";
 function SocialMedia({className}) {
     const ref = useRef();
     const socialData = [
-        {link: "https://www.facebook.com/thepluggroup1/", icon: faFacebookF},
-        {link: "https://www.instagram.com/theplug_group/", icon: faInstagram},
-        {link: "https://www.linkedin.com/company/42470224", icon: faLinkedin},
+        {link: "https://www.facebook.com/stephane.kamwa", icon: faFacebookF},
+        {link: "https://www.instagram.com/stephanekamwa_theplug", icon: faInstagram},
+        {link: "https://www.linkedin.com/in/stephane-tchuente-kamwa-532b73185/", icon: faLinkedin},
         {link: "https://wa.me/+4915752069252/", icon: faWhatsapp},
-        {link: "https://twitter.com/THEPLUG_GROUP", icon: faTwitter},
+        // {link: "https://twitter.com/THEPLUG_GROUP", icon: faTwitter},
         {link: "https://www.youtube.com/@THEPLUG_GROUP", icon: faYoutube},
     ];
 

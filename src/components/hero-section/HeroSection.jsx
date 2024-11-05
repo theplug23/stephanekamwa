@@ -17,14 +17,14 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 
 const HeroContent = {
-  title: "Qui sommes-nous?",
-  description: `THEPLUG Com’ est une branche de THEPLUG GROUP Sarl. C’est avant tout un cabinet d’études, conseils, et de production audiovisuelle, dont l’ADN est la passion pour la communication, l’audiovisuel, l’image… l’art.`,
-  suiteText: `Sa stratégie est d'étudier le consommateur comme un être rationnel, mais aussi émotionnel, qui recherche une attention particulière et désire être stimulé dans ses envies. En effet, dans sa quête permanente de satisfaction, le consommateur a besoin de bien plus qu’un 'bon produit' pour se fidéliser à une marque, et en devenir le premier promoteur.`,
-  authorTitle: "Pourquoi Nous?",
+  title: "Qui suis-je?",
+  description: `Un freelance avec une passion profonde pour la communication, les médias audiovisuels, l'imagerie, le développement web et mobile... et l'art qui réunit ces domaines. Un partenaire de confiance qui aide les marques et les entreprises à atteindre leurs objectifs de communication par le biais d'études stratégiques, de conseils et de solutions numériques. Une entité de production polyvalente qui maîtrise les aspects opérationnels et techniques de la production audiovisuelle, ainsi que le développement web et mobile.`,
+  suiteText: `Soutenue par un réseau professionnel de directeurs de production audiovisuelle, de chercheurs, de graphistes, de vidéastes et de développeurs web, qui collaborent tous pour fournir un service de premier ordre. Équipés d'une technologie de pointe pour une production audiovisuelle, graphique et numérique de qualité supérieure, ainsi que de stratégies efficaces pour améliorer la communication de tout département, entreprise, marque ou individu.`,
+  authorTitle: "Pourquoi Moi?",
   authorJob: "Photographe professionel",
   experienceNumber: "8",
   experienceDescription: `ANNÉES \n D'EXPÉRIENCE`,
-  heroImage: "/assets/img/equipment.jpg",
+  heroImage: "/assets/img/Theplug.png",
 };
 const ChoiceDetails = [
     {
@@ -32,12 +32,12 @@ const ChoiceDetails = [
         text: `ANNÉES \n D'EXPÉRIENCE`
     },
     {
-        number : 'E',
-        text: `quipe \n polyglotte \n (vos projets pourront être réalisés en  Français \n , Allemand , Anglais)`
+        number : 'M',
+        text: `ultilingue \n (vos projets pourront être réalisés en  Français \n , Allemand , Anglais)`
     },
     {
-        number : 'Q',
-        text: `ue des \n Passionné(e)s`
+        number : 'T',
+        text: `rès \n Passionné`
     },
     {
         number : 'R',

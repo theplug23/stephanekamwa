@@ -9,7 +9,7 @@ function InfoBox({ className }) {
 
         <div className={dsnCN('box-info-contact', className)}>
             <h3 className="mt-10">
-            {t("Avec grand plaisir, nous répondrons à toutes vos questions.")}
+            {t("Avec grand plaisir, je répond à toutes vos questions.")}
             </h3>
         </div>
 

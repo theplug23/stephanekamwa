@@ -26,12 +26,12 @@ function WorkTow(props) {
     return (
         <React.Fragment>
             <Helmet>
-                <title>PORTFOLIO - THEPLUG COM'</title>
+                <title>PORTFOLIO - STEPHANE KAMWA</title>
             </Helmet>
-            <HeaderNormal className="background-section text-uppercase" description={t("Nos derniÈres réalisations")}>
-                {t("Nos Réalisations")}<br/> 
+            <HeaderNormal className="background-section text-uppercase" description={t("Mes dernières réalisations")}>
+                {t("Mes Réalisations")}<br/> 
             </HeaderNormal>
-            <Container as={TitleSection} description={t("Nos Réalisations")} className="mt-section">
+            <Container as={TitleSection} description={t("Mes Réalisations")} className="mt-section">
                 {t("Projets réalisés")}
             </Container>
             {/* <PortfolioSwiper 

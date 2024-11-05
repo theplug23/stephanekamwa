@@ -20,6 +20,7 @@ import Footer from "../../components/footer/Footer";
 import HeroSectionTow from "../../components/hero-section/HeroSectionTow";
 import { useTranslation } from "react-i18next";
 import ReactGA from 'react-ga4'
+import SkillsSection from "../../components/skills/SkillsSection";
 
 const MainDemo = () => {
     const { t } = useTranslation("common")
@@ -36,7 +37,7 @@ const MainDemo = () => {
         <React.Fragment>
 
             <Helmet>
-                <title>HOME - THEPLUG COM'</title>
+                <title>HOME - STEPHANE KAMWA</title>
             </Helmet>
 
             {/*Start Slider Portfolio*/}
@@ -49,11 +50,19 @@ const MainDemo = () => {
             </Container>
             {/*End Hero Section*/}
 
+            {/*Start Skills Section*/}
+            <Container className="section-margin">
+                <TitleSection description={t("Mes Compétences")}>
+                    {/* {t("Ce que je fais le mieux")} */}
+                </TitleSection>
+                <SkillsSection />
+            </Container>
+            {/*End Skills Section*/}
 
             {/*Start Service Section*/}
             <Container className="section-margin">
-                <TitleSection description={t("Nos Services")}>
-                    {t("Ce que nous faisons le mieux")}
+                <TitleSection description={t("Mes Services")}>
+                    {t("Ce que je fais le mieux")}
                 </TitleSection>
                 <ServiceOne 
                     className="text-center" 
@@ -69,7 +78,7 @@ const MainDemo = () => {
 
 
             {/*Start Portfolio Swiper*/}
-            <Container as={TitleSection} description={t("Nos Réalisations")}>
+            <Container as={TitleSection} description={t("Mes Réalisations")}>
                 Portfolio
             </Container>
             <PortfolioSwiper grabCursor autoplay={{ delay: 3000 }} loop={true} />
@@ -77,8 +86,8 @@ const MainDemo = () => {
 
 
             {/*Start Box Info With Image*/}
-            <BoxImageVertical src="/assets/img/portfolio-2.jpg" className="section-margin">
-                <TitleCover>THEPLUG COM'</TitleCover>
+            <BoxImageVertical src="/assets/img/portfolio9.jpg" className="section-margin">
+                <TitleCover>STEPHANE KAMWA</TitleCover>
                 <FadeUpTrigger>
                     {(ref) =>
                         <DsnGrid col={1} rowGap={30} rowGapTablet={20}>
@@ -87,10 +96,10 @@ const MainDemo = () => {
                                 {t("Stratégie marketing")}
                             </h2>
                             <h6 ref={ref}>
-                                {t("Nous avons à cœur votre stratégie marketing")}
+                                {t("J'ai à cœur votre stratégie marketing")}
                             </h6>
                             <p ref={ref}>
-                                {t("La stratégie marketing est un point clé vers le succès de vos projets de communication. Nous sommes là pour vous aider à réussir.")}
+                                {t("La stratégie marketing est un point clé vers le succès de vos projets de communication. Je suis là pour vous aider à réussir.")}
                             </p>
                             <div className="button-box" ref={ref}>
                                 <ButtonDefault text={t("En savoir plus")} icon={faAngleRight} href="/about" />
@@ -104,7 +113,7 @@ const MainDemo = () => {
 
             {/*Start Testimonial*/}
             <Container className="section-margin">
-                <Testimonial autoHeight autoplay={{ delay: 3000 }} loop grabCursor title={t("Le retour de nos clients.")} />
+                <Testimonial autoHeight autoplay={{ delay: 3000 }} loop grabCursor title={t("Le retour de clients.")} />
             </Container>
             {/*End Testimonial*/}
 
@@ -119,8 +128,8 @@ const MainDemo = () => {
 
             {/*Start Brand*/}
             <Container className="section-margin">
-                <TitleSection description={t("Nos Clients")}>
-                    {t("Votre succès, Notre")}<br /> {t("réputation")}
+                <TitleSection description={t("Mes Clients")}>
+                    {t("Votre succès, Ma")}<br /> {t("réputation")}
                 </TitleSection>
                 <BrandClient
                     col={3}

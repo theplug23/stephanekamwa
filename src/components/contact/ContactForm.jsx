@@ -33,7 +33,7 @@ function ContactForm({ className }) {
 
   return (
     <div className={dsnCN("form-box", className)}>
-      <h3 className="mb-30">{t("Ecrivez nous ici")}</h3>
+      <h3 className="mb-30">{t("Ecrivez moi ici")}</h3>
       <form ref={form} onSubmit={sendEmail}>
         <div className="input__wrap controls">
           <div className="form-group">
@@ -65,7 +65,7 @@ function ContactForm({ className }) {
               id="form_message"
               className="form-control"
               name="form_message"
-              placeholder={t("Parlez-nous de vous et de votre projet")}
+              placeholder={t("Parlez-moi de vous et de votre projet")}
               required="required"
             />
           </div>
@@ -74,9 +74,9 @@ function ContactForm({ className }) {
             <button type="submit" id="btn-contact">{t("ENVOYER UN MESSAGE")}</button>
           </div>
           
-           {loading && <div className="loading-message mt-20" style={{color: '#b99226',fontWeight: 'bold'}}>Méssage en envoi ......</div>}
+           {loading && <div className="loading-message mt-20" style={{color: '#b99226',fontWeight: 'bold'}}>Message en cours envoi ......</div>}
                     {result &&
-                    <p className="success-message mt-20" style={{color: 'green',fontWeight: 'bold'}}>Votre méssage a été envoyé avec succès. Nous vous contacterons plustard.</p>} 
+                    <p className="success-message mt-20" style={{color: 'green',fontWeight: 'bold'}}>Votre message a été envoyé avec succès. Nous vous contacterons plustard.</p>} 
         </div>
       </form>
     </div>

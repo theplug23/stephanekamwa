@@ -14,7 +14,7 @@ const ServicesDetails = [
         title: "PRODUCTION VIDEO",
         description1: "Un projet personnel, un événement, une publicité ou du contenu en ligne",
         description2: "Vidéo optimisée pour TV ou les réseaux sociaux (YouTube, Facebook, Instagram, TikTok, etc.)",
-        description3: "Nous créons le concept (l'idée, le scénario ou un plan de travail) et nous planifions la production",
+        description3: "Je crée le concept (l'idée, le scénario ou un plan de travail) et nous planifions la production",
         description4: "Tournage (Shooting Vidéo), Montage vidéo & Post-production"
     },
     {
@@ -67,7 +67,7 @@ const ServicesDetails = [
         icon: 'assets/img/services/2.png',
         title: "CONSEILS STRATÉGIQUES",
         description1: "Mise en place de la strategie de communication",
-        description2: "Le developpement de notre notoriété",
+        description2: "Le developpement de votre notoriété",
         description3: "Optimisation de votre image de marque.",
         description4: "Proposition des actions correctives",
     },

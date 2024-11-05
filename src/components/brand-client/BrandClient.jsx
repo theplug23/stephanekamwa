@@ -39,10 +39,10 @@ const BrandDetails = [
         linkText: "www.wifor.com/en/",
     },
     {
-        src: "/assets/img/logo/Logo NHPC - PNG.png",
-        title: "NHPC",
-        href: "https://nhpc.org/",
-        linkText: "www.nhpc.org",
+        src: "/assets/img/logo/Logo Stromberg.png",
+        title: "Stromberg Finanz Consulting",
+        href: "https://www.aerzteberatung-duesseldorf.de/",
+        linkText: "www.aerzteberatung-duesseldorf.de"
     },
     {
         src: "/assets/img/logo/LOGO WEDDING-NOIR.png",
@@ -56,18 +56,18 @@ const BrandDetails = [
         href: "https://www.maman2noemi.com/",
         linkText: "www.maman2noemi.com",
     },
-    {
-        src: "/assets/img/logo/BYBIT.png",
-        title: "EBONY EVENTS",
-        href: "http://ebony-event.com/",
-        linkText: "www.ebony-event.com",
-    },
-    {
-        src: "/assets/img/logo/UNITED-AFRICAN.png",
-        title: "MB-CREATION",
-        href: "http://www.mb-creation.com",
-        linkText: "www.mb-creation.com",
-    },
+    // {
+    //     src: "/assets/img/logo/BYBIT.png",
+    //     title: "EBONY EVENTS",
+    //     href: "http://ebony-event.com/",
+    //     linkText: "www.ebony-event.com",
+    // },
+    // {
+    //     src: "/assets/img/logo/UNITED-AFRICAN.png",
+    //     title: "MB-CREATION",
+    //     href: "http://www.mb-creation.com",
+    //     linkText: "www.mb-creation.com",
+    // },
     {
         src: "/assets/img/logo/PULSELIVE.png",
         title: "PULSE LIVE",
@@ -81,10 +81,10 @@ const BrandDetails = [
         linkText: "www.esk-translations.com",
     },
     {
-        src: "/assets/img/logo/EMD-logo.png",
-        title: "EMD PRODUCTION",
-        href: "https://google.com/",
-        linkText: "www.google.com",
+        src: "/assets/img/logo/SAB.png",
+        title: "SAB AFRIQUE",
+        href: "https://sabafrique.com",
+        linkText: "www.sabafrique.com"
     },
     {
         src: "/assets/img/logo/Madhi-logo.png",
@@ -92,18 +92,18 @@ const BrandDetails = [
         href: "https://google.com/",
         linkText: "www.google.com",
     },
-    {
-        src: "/assets/img/logo/epouse eden - c2023 logo.png",
-        title: "EPOUSE EDEN",
-        href: "https://google.com/",
-        linkText: "www.google.com",
-    },
-    {
-        src: "/assets/img/logo/ALVI LOGO.png",
-        title: "ALVI 7 HOTEL",
-        href: "https://alvi7hotel.com/",
-        linkText: "www.alvi7hotel.com",
-    },
+    // {
+    //     src: "/assets/img/logo/epouse eden - c2023 logo.png",
+    //     title: "EPOUSE EDEN",
+    //     href: "https://google.com/",
+    //     linkText: "www.google.com",
+    // },
+    // {
+    //     src: "/assets/img/logo/ALVI LOGO.png",
+    //     title: "ALVI 7 HOTEL",
+    //     href: "https://alvi7hotel.com/",
+    //     linkText: "www.alvi7hotel.com",
+    // },
     {
         src: "/assets/img/logo/DFIT LOGO.png",
         title: "D-FIT DELIVERY",
@@ -111,17 +111,18 @@ const BrandDetails = [
         linkText: "instagram.com/d_fit_delivery"
     },
     {
-        src: "/assets/img/logo/SAB.png",
-        title: "SAB AFRIQUE",
-        href: "https://sabafrique.com",
-        linkText: "www.sabafrique.com"
+        src: "/assets/img/logo/EMD-logo.png",
+        title: "EMD PRODUCTION",
+        href: "https://google.com/",
+        linkText: "www.google.com",
     },
     {
-        src: "/assets/img/logo/Logo Stromberg.png",
-        title: "Stromberg Finanz Consulting",
-        href: "https://www.aerzteberatung-duesseldorf.de/",
-        linkText: "www.aerzteberatung-duesseldorf.de"
+        src: "/assets/img/logo/Logo NHPC - PNG.png",
+        title: "NHPC",
+        href: "https://nhpc.org/",
+        linkText: "www.nhpc.org",
     }
+    
 ]
 
 function BrandClient({className, ...restProps}: DsnGridProps) {

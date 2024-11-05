@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 function NextPageContent({...restProps}) {
     const {t} = useTranslation("common")
     return (
-        <NextPage to="/contact"  text={t("contactez-nous directement en cliquant ici !")} {...restProps}>
+        <NextPage to="/contact"  text={t("contactez-moi directement en cliquant ici !")} {...restProps}>
             {t("Êtes-Vous satisfaits ?")}
         </NextPage>
     );

@@ -17,7 +17,7 @@ const BlogClassic = () => {
     return (
         <section className='dsn-blog'>
             <Row>
-                {posts.map(
+                {/* {posts.map(
                     (item, index) => {
                         return (
                             <Col xs={6} key={index}>
@@ -32,7 +32,7 @@ const BlogClassic = () => {
                             </Col>
                         );
                     }
-                )}
+                )} */}
             </Row>
         </section>
     );

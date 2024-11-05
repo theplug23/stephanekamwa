@@ -9,8 +9,8 @@ import BlogClassic from '../components/blog/BlogContainer';
 import ReactGA from 'react-ga4';
 
 const headerContent = {
-    title: "Notre Blog",
-    description: `Découvrez nos différentes thématiques`,
+    title: "Blog",
+    description: `Découvrez différentes thématiques`,
 };
 
 export default function Blogs() {
@@ -27,7 +27,7 @@ export default function Blogs() {
     return (
         <React.Fragment>
             <Helmet>
-                <title>BLOG - THEPLUG COM'</title>
+                <title>BLOG - STEPHANE KAMWA</title>
             </Helmet>
 
             <HeaderNormal 
@@ -38,7 +38,7 @@ export default function Blogs() {
             </HeaderNormal>
 
             <Container className="section-margin">
-                <TitleSection description={t("Nos Blogs")} />
+                <TitleSection description={t("Blogs")} />
                 <BlogClassic />
             </Container>
 
