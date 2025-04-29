@@ -12,7 +12,7 @@ function ContactForm({ className }) {
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.sendForm("service_j2lu66k", "template_rukjdbg", form.current, "21I8nFC1Kg4MEBMER")
+    emailjs.sendForm("service_6hluj3x", "template_dldej3c", form.current, "fQOVsC98jW0xEOejl")
        .then(
         (result) => {
           setLoading(false);
