@@ -19,7 +19,7 @@ const heroContent = {
     icon : faAngleRight
 };
 
-function HeroSectionContact({...restProps}: ParallaxImageProps) {
+function HeroSectionContact({...restProps}) {
     const {t} = useTranslation("common")
     return (
         <BoxRightContact  {...restProps} src={heroContent.src}>
